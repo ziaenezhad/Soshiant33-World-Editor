@@ -1,0 +1,15 @@
+Nevron.UI.WinForm.Controls.NSkinResource, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NToolbar, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NForm, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NMenuBar, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NGalleryPanel, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NButton, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NCommandBarsManager, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NStatusBar, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NTabStrip, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NDockingToolbar, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NUIManagerController, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Controls.NTabControl, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc
+Nevron.UI.WinForm.Docking.NDockManager, Nevron.UI.WinForm.Docking, Version=10.4.14.12, Culture=neutral, PublicKeyToken=446d8963349a628a
+Nevron.UI.WinForm.Docking.NDockingStickerTemplate, Nevron.UI.WinForm.Docking, Version=10.4.14.12, Culture=neutral, PublicKeyToken=446d8963349a628a
+Nevron.UI.WinForm.Controls.NNavigationPane, Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc

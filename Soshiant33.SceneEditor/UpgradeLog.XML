@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Soshiant33.SceneEditor">
+</Property><Property Name="Solution File" Value="G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Soshiant33.SceneEditor.sln">
+</Property><Property Name="User Options File" Value="G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Soshiant33.SceneEditor.suo">
+</Property><Property Name="Date" Value="2010/09/28">
+</Property><Property Name="Time" Value="14:06 ب.ظ">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Soshiant33.SceneEditor.sln" Description="File successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\Soshiant33.SceneEditor.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Soshiant33.SceneEditor.suo" Description="File successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\Soshiant33.SceneEditor.suo">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="Soshiant33.SceneEditor.csproj" Description="Project file successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\Soshiant33.SceneEditor.csproj">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="PropertyRegion.cs" Description="File successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\PropertyRegion.cs">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="PanelRegion.cs" Description="File successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\PanelRegion.cs">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="S33SceneEditor.cs" Description="File successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\S33SceneEditor.cs">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="S33SceneEditor.Designer.cs" Description="File successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\S33SceneEditor.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="Properties\licenses.licx" Description="File successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\Properties\licenses.licx">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="S33SceneEditor.resx" Description="File successfully backed up as G:\Work\Soshiant\V0.2.0\Editor\Soshiant33.SceneEditor\Backup\S33SceneEditor.resx">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="Soshiant33.SceneEditor.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Soshiant33.SceneEditor" Source="Soshiant33.SceneEditor.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Soshiant33.SceneEditor.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Soshiant33.SceneEditor.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Soshiant33.SceneEditor" Source="Soshiant33.SceneEditor.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

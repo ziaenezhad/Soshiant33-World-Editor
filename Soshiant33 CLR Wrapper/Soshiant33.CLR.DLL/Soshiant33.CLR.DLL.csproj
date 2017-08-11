@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40B1D797-FC60-4A65-A261-CB270DCE24EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Soshiant33</RootNamespace>
+    <AssemblyName>Soshiant33.CLR</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Nevron.Presentation, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc, processorArchitecture=MSIL" />
+    <Reference Include="Nevron.System, Version=10.4.14.12, Culture=neutral, PublicKeyToken=6a987feae5e496fd, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Box2D\b2Body.cs" />
+    <Compile Include="Box2D\b2BodyDef.cs" />
+    <Compile Include="Box2D\b2CircleShape.cs" />
+    <Compile Include="Box2D\b2Fixture.cs" />
+    <Compile Include="Box2D\b2FixtureDef.cs" />
+    <Compile Include="Box2D\b2PolygonShape.cs" />
+    <Compile Include="Box2D\b2Shape.cs" />
+    <Compile Include="Box2D\b2Vec2.cs" />
+    <Compile Include="Camera.cs" />
+    <Compile Include="ComplexEntity.cs" />
+    <Compile Include="ComplexEntityPattern.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="Entity.cs" />
+    <Compile Include="EntityParameters.cs" />
+    <Compile Include="EntityPattern.cs" />
+    <Compile Include="KeyFrame.cs" />
+    <Compile Include="Library.cs" />
+    <Compile Include="NativeObject.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Rect.cs" />
+    <Compile Include="Scene.cs" />
+    <Compile Include="ScenePattern.cs" />
+    <Compile Include="Sprite.cs" />
+    <Compile Include="SpritePattern.cs" />
+    <Compile Include="SpriteState.cs" />
+    <Compile Include="Vector3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon_add_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon_remove_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\color_mixer_48_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database-import.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frames_action_128_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frames_add_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frames_back_128_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frames_next_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frames_remove_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mask_128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player_stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big_smile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scene.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ComplexEntity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ComplexEntity_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sprite_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Scene_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyFrame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyFrame_action.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database-refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grid_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exe_32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
